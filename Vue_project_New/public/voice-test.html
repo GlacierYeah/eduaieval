@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>语音识别测试</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .test-container {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 20px;
+      background-color: #f9f9f9;
+    }
+    
+    .button-container {
+      margin: 20px 0;
+    }
+    
+    button {
+      padding: 10px 15px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    .result-container {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      min-height: 100px;
+      background-color: white;
+    }
+    
+    .log-container {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #f5f5f5;
+      height: 200px;
+      overflow-y: auto;
+      font-family: monospace;
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .error {
+      color: red;
+    }
+    
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>讯飞语音识别测试</h1>
+  
+  <div class="test-container">
+    <h2>测试RecorderManager</h2>
+    <div class="button-container">
+      <button id="loadBtn">加载语音识别SDK</button>
+      <button id="startBtn" disabled>开始录音</button>
+      <button id="stopBtn" disabled>停止录音</button>
+    </div>
+    
+    <div class="result-container" id="resultContainer">
+      <p>语音识别结果将显示在这里...</p>
+    </div>
+    
+    <div class="log-container" id="logContainer">
+      <p>日志信息：</p>
+    </div>
+  </div>
+  
+  <script>
+    // 记录日志
+    function log(message, type = 'info') {
+      const logContainer = document.getElementById('logContainer');
+      const logEntry = document.createElement('div');
+      logEntry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      
+      if (type === 'error') {
+        logEntry.classList.add('error');
+      } else if (type === 'success') {
+        logEntry.classList.add('success');
+      }
+      
+      logContainer.appendChild(logEntry);
+      logContainer.scrollTop = logContainer.scrollHeight;
+    }
+    
+    // 更新结果
+    function updateResult(text) {
+      const resultContainer = document.getElementById('resultContainer');
+      resultContainer.innerHTML = `<p>${text}</p>`;
+    }
+    
+    // 加载SDK
+    async function loadSDK() {
+      log('正在加载语音识别SDK...');
+      
+      try {
+        // 加载RecorderManager
+        const scriptRecorderManager = document.createElement('script');
+        scriptRecorderManager.src = '/voice-utils/dist/recorder-manager.js';
+        
+        // 加载CryptoJS
+        const scriptCryptoJS = document.createElement('script');
+        scriptCryptoJS.src = 'https://cdn.bootcdn.net/ajax/libs/crypto-js/4.1.1/crypto-js.min.js';
+        
+        // 等待脚本加载
+        await Promise.all([
+          new Promise((resolve, reject) => {
+            scriptRecorderManager.onload = () => {
+              log('RecorderManager加载成功', 'success');
+              resolve();
+            };
+            scriptRecorderManager.onerror = (error) => {
+              log(`RecorderManager加载失败: ${error}`, 'error');
+              reject(error);
+            };
+            document.head.appendChild(scriptRecorderManager);
+          }),
+          new Promise((resolve, reject) => {
+            scriptCryptoJS.onload = () => {
+              log('CryptoJS加载成功', 'success');
+              resolve();
+            };
+            scriptCryptoJS.onerror = (error) => {
+              log(`CryptoJS加载失败: ${error}`, 'error');
+              reject(error);
+            };
+            document.head.appendChild(scriptCryptoJS);
+          })
+        ]);
+        
+        log('SDK加载完成', 'success');
+        document.getElementById('startBtn').disabled = false;
+        
+      } catch (error) {
+        log(`SDK加载失败: ${error}`, 'error');
+        throw error;
+      }
+    }
+    
+    // 录音实例
+    let recorder = null;
+    let recording = false;
+    
+    // 开始录音
+    async function startRecording() {
+      try {
+        if (!window.RecorderManager) {
+          throw new Error('RecorderManager未加载');
+        }
+        
+        if (!recorder) {
+          recorder = new RecorderManager('/voice-utils/dist');
+        }
+        
+        // 设置回调
+        recorder.onFrameRecorded = ({ isLastFrame, frameBuffer }) => {
+          if (!isLastFrame && frameBuffer) {
+            const audioData = new Int16Array(frameBuffer);
+            log(`收到音频帧，长度: ${audioData.length}`);
+          }
+        };
+        
+        recorder.onStop = () => {
+          log('录音已停止');
+          recording = false;
+          document.getElementById('startBtn').disabled = false;
+          document.getElementById('stopBtn').disabled = true;
+        };
+        
+        // 开始录音
+        await recorder.start({
+          sampleRate: 16000,
+          frameSize: 1280
+        });
+        
+        recording = true;
+        log('录音已开始', 'success');
+        document.getElementById('startBtn').disabled = true;
+        document.getElementById('stopBtn').disabled = false;
+        
+      } catch (error) {
+        log(`开始录音失败: ${error.message}`, 'error');
+      }
+    }
+    
+    // 停止录音
+    function stopRecording() {
+      if (recorder && recording) {
+        recorder.stop();
+      }
+    }
+    
+    // 初始化按钮事件
+    document.getElementById('loadBtn').addEventListener('click', () => {
+      loadSDK().catch(error => {
+        console.error('加载SDK失败:', error);
+      });
+    });
+    
+    document.getElementById('startBtn').addEventListener('click', () => {
+      startRecording().catch(error => {
+        console.error('开始录音失败:', error);
+      });
+    });
+    
+    document.getElementById('stopBtn').addEventListener('click', () => {
+      stopRecording();
+    });
+  </script>
+</body>
+</html> 

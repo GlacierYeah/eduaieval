@@ -1,0 +1,27 @@
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  assetsInclude: ['**/*.mp4'],
+  server: {
+    headers: {
+      // 确保视频文件的MIME类型正确
+      'Content-Type': 'video/mp4'
+    },
+    fs: {
+      strict: false // 允许访问工作区目录之外的文件
+    }
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'media': ['./src/assets/result2.mp4']
+        }
+      }
+    }
+  },
+  publicDir: 'public' // 确认public目录设置
+})

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>语音识别工具</title>
+</head>
+<body>
+  <!-- 加载CryptoJS和录音管理器脚本 -->
+  <script src="/voice-utils/utilJS/crypto-js.js"></script>
+  <script src="/voice-utils/utilJS/index.umd.js"></script>
+  <script>
+    // 确保脚本已加载
+    window.onload = function() {
+      console.log('语音识别工具脚本已加载');
+      if (window.CryptoJS && window.RecorderManager) {
+        console.log('CryptoJS和RecorderManager已成功加载');
+      } else {
+        console.error('脚本加载失败');
+      }
+    };
+  </script>
+</body>
+</html> 

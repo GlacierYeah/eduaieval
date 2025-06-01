@@ -1,0 +1,121 @@
+2025-04-29 00:29:36.939435 - DEBUG : <-<- Client connection at 127.0.0.1: 56851
+2025-04-29 00:29:36.940496 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:29:36.964236 - DEBUG : <-<- true
+2025-04-29 00:29:36.965747 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:29:55.694423 - DEBUG : <-<- true
+2025-04-29 00:29:55.694423 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:29:55.696430 - DEBUG : <-<- true
+2025-04-29 00:29:55.696430 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:31:38.094003 - DEBUG : <-<- Client connection at 127.0.0.1: 54749
+2025-04-29 00:31:38.095392 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:31:38.101442 - DEBUG : <-<- true
+2025-04-29 00:31:38.102449 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:31:53.484640 - DEBUG : <-<- true
+2025-04-29 00:31:53.485642 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:31:53.486639 - DEBUG : <-<- true
+2025-04-29 00:31:53.487640 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:32:10.739463 - DEBUG : <-<- Client connection at 127.0.0.1: 54770
+2025-04-29 00:32:10.739463 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:32:10.747893 - DEBUG : <-<- true
+2025-04-29 00:32:10.747893 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:32:27.887781 - DEBUG : <-<- true
+2025-04-29 00:32:27.889146 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:32:27.890150 - DEBUG : <-<- true
+2025-04-29 00:32:27.890654 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:32:44.465568 - DEBUG : <-<- Client connection at 127.0.0.1: 54790
+2025-04-29 00:32:44.465568 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:32:44.484046 - DEBUG : <-<- true
+2025-04-29 00:32:44.484046 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:33:00.042280 - DEBUG : <-<- true
+2025-04-29 00:33:00.043571 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:33:00.044076 - DEBUG : <-<- true
+2025-04-29 00:33:00.045581 - DEBUG : ->>> b'18/13/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/proj/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:33:07.331800 - DEBUG : <-<- 4112
+2025-04-29 00:40:14.267255 - DEBUG : <-<- Client connection at 127.0.0.1: 65295
+2025-04-29 00:40:14.267255 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:40:14.274861 - DEBUG : <-<- true
+2025-04-29 00:40:14.275373 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:40:30.184632 - DEBUG : <-<- true
+2025-04-29 00:40:30.184632 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:40:30.186051 - DEBUG : <-<- true
+2025-04-29 00:40:30.187073 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:43:27.122160 - DEBUG : <-<- Client connection at 127.0.0.1: 65390
+2025-04-29 00:43:27.122160 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:43:27.129200 - DEBUG : <-<- true
+2025-04-29 00:43:27.129966 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:43:41.597957 - DEBUG : <-<- true
+2025-04-29 00:43:41.597957 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:43:41.599383 - DEBUG : <-<- true
+2025-04-29 00:43:41.600390 - DEBUG : ->>> b'18/13/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/temp_video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:43:48.056165 - DEBUG : <-<- 4112
+2025-04-29 00:43:51.058549 - DEBUG : ->>> b'18/13/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/temp_video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:43:57.073966 - DEBUG : <-<- 4112
+2025-04-29 00:44:00.075006 - DEBUG : ->>> b'18/13/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/temp_video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:44:09.234847 - DEBUG : <-<- 4112
+2025-04-29 00:46:14.381738 - DEBUG : <-<- Client connection at 127.0.0.1: 61867
+2025-04-29 00:46:14.381738 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:46:14.391671 - DEBUG : <-<- true
+2025-04-29 00:46:14.391671 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:46:27.132709 - DEBUG : <-<- true
+2025-04-29 00:46:27.133711 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:46:27.133711 - DEBUG : <-<- true
+2025-04-29 00:46:27.134714 - DEBUG : ->>> b'18/20/21/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/test_video_output\xe8\xbf\x99\xe6\x98\xaf\xe4\xb8\x80\xe4\xb8\xaa\xe6\xb5\x8b\xe8\xaf\x95\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:46:31.185415 - DEBUG : <-<- 1587
+2025-04-29 00:53:31.002046 - DEBUG : <-<- Client connection at 127.0.0.1: 63840
+2025-04-29 00:53:31.003579 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:53:31.010090 - DEBUG : <-<- true
+2025-04-29 00:53:31.011098 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 00:53:46.560783 - DEBUG : <-<- true
+2025-04-29 00:53:46.560783 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:53:46.561791 - DEBUG : <-<- true
+2025-04-29 00:53:46.561791 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:55:39.816259 - DEBUG : <-<- Client connection at 127.0.0.1: 56287
+2025-04-29 00:55:39.816259 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:55:39.824013 - DEBUG : <-<- true
+2025-04-29 00:55:39.824013 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:\\proj\\humanModel20.50.5falsefalse'
+2025-04-29 00:55:55.624110 - DEBUG : <-<- true
+2025-04-29 00:55:55.624110 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:55:55.625981 - DEBUG : <-<- true
+2025-04-29 00:55:55.626486 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:\\\xe6\xaf\x94\xe8\xb5\x9b\\\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b\\video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:56:02.689512 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:56:05.851545 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:05.742078 - DEBUG : <-<- Client connection at 127.0.0.1: 56320
+2025-04-29 00:58:05.743095 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:05.749756 - DEBUG : <-<- true
+2025-04-29 00:58:05.750818 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:\\proj\\humanModel20.50.5falsefalse'
+2025-04-29 00:58:12.056802 - DEBUG : <-<- Client connection at 127.0.0.1: 56322
+2025-04-29 00:58:12.057309 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:12.064318 - DEBUG : <-<- true
+2025-04-29 00:58:12.064318 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:\\proj\\humanModel20.50.5falsefalse'
+2025-04-29 00:58:22.835018 - DEBUG : <-<- true
+2025-04-29 00:58:22.835018 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:58:22.837708 - DEBUG : <-<- true
+2025-04-29 00:58:22.837708 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:\\\xe6\xaf\x94\xe8\xb5\x9b\\\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b\\video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:58:26.007785 - DEBUG : <-<- true
+2025-04-29 00:58:26.007785 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 00:58:26.008794 - DEBUG : <-<- true
+2025-04-29 00:58:26.009793 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:\\\xe6\xaf\x94\xe8\xb5\x9b\\\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b\\video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 00:58:26.444260 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:28.650284 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:29.890205 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 00:58:31.825765 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 01:06:40.361438 - DEBUG : <-<- Client connection at 127.0.0.1: 64901
+2025-04-29 01:06:40.361438 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 01:06:40.368003 - DEBUG : <-<- true
+2025-04-29 01:06:40.369008 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 01:06:55.981485 - DEBUG : <-<- true
+2025-04-29 01:06:55.981485 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 01:06:55.982989 - DEBUG : <-<- true
+2025-04-29 01:06:55.982989 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 01:09:41.776151 - DEBUG : <-<- Client connection at 127.0.0.1: 58049
+2025-04-29 01:09:41.776151 - DEBUG : ->>> b'17/84/6\ninitSpeechServiceCmwzTb35WSvnOYEPoY9wC12ExtiNJkI37VJlc9itceLmM6osBYstJQQJ99BAACYeBjFXJ3w3AAAYACOG1fhOeastus'
+2025-04-29 01:09:41.783574 - DEBUG : <-<- true
+2025-04-29 01:09:41.783574 - DEBUG : ->>> b'13/19/3/3/5/5\ninitMetahumanD:/proj/humanModel20.50.5falsefalse'
+2025-04-29 01:09:54.647453 - DEBUG : <-<- true
+2025-04-29 01:09:57.648439 - DEBUG : ->>> b'14/1/5/2/3/3/1/5/5\nshowSpeechText0Arial301282550falsefalse'
+2025-04-29 01:09:57.649605 - DEBUG : <-<- true
+2025-04-29 01:09:59.650594 - DEBUG : ->>> b'18/37/60/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe8\xa7\xa3\xe9\x87\x8a\xe6\xa0\x91\xe7\x9a\x84\xe5\x9f\xba\xe6\x9c\xac\xe6\x9c\xaf\xe8\xaf\xad\xef\xbc\x8c\xe5\xb9\xb6\xe6\x8f\x8f\xe8\xbf\xb0\xe6\xa0\x91\xe7\x9a\x84\xe9\x80\x92\xe5\xbd\x92\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 01:10:03.288324 - DEBUG : ->>> b'18/37/72/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe4\xb8\x8e\xe6\x99\xae\xe9\x80\x9a\xe6\xa0\x91\xe7\x9a\x84\xe5\x8c\xba\xe5\x88\xab\xe6\x98\xaf\xe4\xbb\x80\xe4\xb9\x88\xef\xbc\x9f\xe8\xaf\xb7\xe7\xbb\x99\xe5\x87\xba\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe7\x9a\x84\xe5\xae\x9a\xe4\xb9\x89\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 01:10:03.289323 - DEBUG : ->>> b'18/37/45/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe8\xaf\xb7\xe5\x88\x97\xe4\xb8\xbe\xe5\xb9\xb6\xe8\xa7\xa3\xe9\x87\x8a\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe7\x9a\x84\xe4\xb8\xbb\xe8\xa6\x81\xe6\x80\xa7\xe8\xb4\xa8\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 01:10:03.291322 - DEBUG : ->>> b'18/37/72/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe6\xbb\xa1\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe5\x92\x8c\xe5\xae\x8c\xe5\x85\xa8\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe7\x9a\x84\xe5\xae\x9a\xe4\xb9\x89\xe6\x98\xaf\xe4\xbb\x80\xe4\xb9\x88\xef\xbc\x9f\xe4\xb8\xa4\xe8\x80\x85\xe6\x9c\x89\xe4\xbd\x95\xe5\x8c\xba\xe5\x88\xab\xef\xbc\x9fzh-cnzh-cn-XiaochenNeural0General00'
+2025-04-29 01:10:03.292323 - DEBUG : ->>> b'18/37/63/5/20/0/1/7/1/1\nmakeMetahumanVideoD:/\xe6\xaf\x94\xe8\xb5\x9b/\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\xba\xe8\xae\xbe\xe8\xae\xa1\xe5\xa4\xa7\xe8\xb5\x9b/video\xe6\xa0\x91\xe5\x92\x8c\xe4\xba\x8c\xe5\x8f\x89\xe6\xa0\x91\xe6\x9c\x89\xe5\x93\xaa\xe4\xba\x9b\xe5\x9f\xba\xe6\x9c\xac\xe6\x93\x8d\xe4\xbd\x9c\xef\xbc\x9f\xe8\xaf\xb7\xe5\x88\x86\xe5\x88\xab\xe4\xb8\xbe\xe4\xbe\x8b\xe8\xaf\xb4\xe6\x98\x8e\xe3\x80\x82zh-cnzh-cn-XiaochenNeural0General00'
